@@ -1,0 +1,47 @@
+.fl-home-section .fl-inline-block{
+	vertical-align: middle;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Internal
+|--------------------------------------------------------------------------
+*/
+.et-db:not(.home):not(.single-people) .fl-main-content p {
+	padding-bottom:unset;
+	margin:1em 0;
+}
+.fl-main-content blockquote p {
+	margin: 0 !important;
+}
+.fl-main-content blockquote,
+.fl-main-content p.callOut {
+	padding: 0 !important;
+	font: 18px/1.8 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 400;
+}
+/* SIDEBAR STYLING */
+.et-db #et-boc .fl-sidebar h4.widgettitle{
+	padding-bottom: 20px !important;
+}
+.et-db #et-boc .fl-sidebar ul > li {
+    margin: 15px 0px 15px 0px;
+}
+.et-db #et-boc .fl-sidebar ul li a {
+    color: #ffffff!important;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 4px solid #e1ce96;
+    transition: all .33s ease-in-out;
+}
+.et-db #et-boc .fl-sidebar ul.sub-menu{
+    margin: 0 0 15px 15px;
+}
+.et-db #et-boc .fl-sidebar ul > li > a:focus,
+.et-db #et-boc .fl-sidebar ul > li > a:hover{
+    padding-left: 13px;
+    border-left-color: #e1ce96;
+}
+/* .et-db #et-boc .fl-sidebar .widget_nav_menu ul.menu > li:not(.current-menu-item):not(.current-menu-parent) {
+    display: none;
+} */
